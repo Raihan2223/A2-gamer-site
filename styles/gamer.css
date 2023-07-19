@@ -61,8 +61,9 @@
  .vectior-img {
      margin-right: 20px;
  }
- nav .ul-2{
-    align-items: center;
+
+ nav .ul-2 {
+     align-items: center;
  }
 
  .ul-2 {
@@ -71,4 +72,79 @@
      width: 262px;
      height: 56px;
      background: rgba(11, 2, 35, 0.10);
+ }
+
+ /* Banner-1 section styles */
+
+ .banner-1 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     align-items: center;
+
+ }
+
+ .banner-content1 {
+     background-image: url('..//images/Group\ 14.png');
+ 
+ }
+
+ .banner-content1 .play-like {
+     color: #0B0223;
+     margin: 0;
+     font-size: 48px;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ .banner-content1 .goat {
+     margin: 0;
+     color: #F948B2;
+     font-size: 95px;
+     font-weight: 800;
+     text-transform: uppercase;
+ }
+
+ .banner-content1 p {
+     display: flex;
+     margin-right: 10px;
+ }
+
+.btn-1{
+    background:  #FF42A5 ; 
+}
+
+.banner-content1 .btn-1{
+
+    border-radius: 48px;
+    
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: 21px 40px;
+    cursor: pointer;
+    border: 0;
+}
+.btn-2{
+    background-color: #4EC5F7;
+}
+.banner-content1 .btn-2{
+
+    border-radius: 48px;
+    
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: 21px 40px;
+    cursor: pointer;
+    border: 0;
+}
+
+ .banner-content1 p img {
+     margin-right: 10px;
+ }
+
+ .banner-picture1 .pig-1 {
+     width: 711px;
+     height: 446px;
  }
