@@ -40,7 +40,7 @@
      border: 5px;
  }
 
- nav>ul {
+ nav .ul-1 {
      display: flex;
      align-items: center;
  }
@@ -145,6 +145,35 @@
  }
 
  .banner-picture1 .pig-1 {
-     width: 711px;
-     height: 446px;
+     width: 500px;
+     height: 400px;
+     padding: 10px;
+ }
+ @media screen and (max-width:576px) {
+    nav, .banner-1, .ul-1 {
+        flex-direction: column;
+    }
+    .header{
+        gap: 20px;
+    }
+   nav .ul-1{
+    gap: 20px;
+   }
+   .banner-picture1{
+       position: static;
+   }
+ }
+ @media screen and (min-width: 576px) and (max-width:962px) {
+    nav, .banner-1, .ul-1{
+        flex-direction: column;
+    }
+    .header{
+        gap: 20px;
+    }
+    nav .ul-1{
+        gap: 20px;
+       }
+       .banner-picture1{
+        position: static;
+    }
  }
